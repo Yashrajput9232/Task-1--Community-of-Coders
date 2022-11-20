@@ -89,7 +89,7 @@ class _ProductPageState extends State<ProductPage> {
                                         borderRadius: BorderRadius.circular(20),
                                       ),
                                       child: Padding(
-                                        padding: const EdgeInsets.all(8.0),
+                                        padding: const EdgeInsets.all(0.0),
                                         child: Text(
                                           '\$${getApi.getPrice(index)}',
                                            style: const TextStyle(
